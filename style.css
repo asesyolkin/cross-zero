@@ -1,0 +1,99 @@
+    body{
+	  padding: 0;
+	  margin: 0;
+	}
+    #playing-field {
+	  background: url(img/maxresdefault5.png) center center no-repeat;
+	  margin: 120px auto;
+	  width: 800px;
+	  height: 412px;
+	}
+    #playing-field-table {
+	  border-collapse: collapse;
+	  position: relative;
+	  top: -37px;
+    left: 96px;
+	}
+    td {
+	  padding: 59px 64px;
+	  /* border: 1px solid red; */
+	}
+	#game-button {
+	  text-align: center;
+	  letter-spacing: 70px;
+	}
+	#game-button button {
+	  border-radius: 5px;
+	  background: linear-gradient(#D0ECF4, #5055CC, #D0ECF4);
+	  color: #FFF7D3;
+	  font-size: 12px;
+	  height: 50px;
+	  width: 200px;
+	}
+	.account {
+    position: relative;
+    left: 52px;
+	}		
+  .account-img-background {
+	  background: url(img/hum-hum.png) left center / 100px no-repeat;
+    width: 100px;
+    height: 70px;
+    float: left;
+	}	
+  .account-player1, .account-player2-robot {
+    font-size: 18px;
+    font-family: cursive;
+    color: #000663;
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    height: 16px;
+	}  
+  .account-player1 {
+	  margin-top: 13px;
+	  margin-bottom: 10px;
+	}
+  .who-goes {
+	  background: url(img/hum1.png) left center no-repeat;
+    width: 86px;
+    height: 29px;
+    position: relative;
+    left: 61px;
+    top: -53px;
+	}	
+	.cross {
+	  background: url(img/cross2.png) center center / 100px no-repeat;
+	}
+	.zero {
+	  background: url(img/zero3.png) center center / 90px no-repeat;
+	  /*transition: 0.3s ease-in-out 0.1s;*/
+	}
+	.cross-out {
+	  visibility: hidden;
+	  position: absolute;
+	  height: 118px;
+	  width: 450px;
+	  z-index: 1;
+	}
+	.cross-out_img-horizontal {
+	  background: url(img/crossOut5.png) center center no-repeat;
+	  visibility: visible;
+	}	
+	.cross-out_img-vertical {
+	  background: url(img/crossOut4.png) center center no-repeat;
+	  visibility: visible;
+	  transform: rotate(90deg);
+	}	
+	.cross-out_img-diagonal-up-down {
+	  background: url(img/crossOut6.png) center center no-repeat;
+	  visibility: visible;
+	  transform: rotate(42deg);
+	  width: 500px;
+	}	
+	.cross-out_img-diagonal-down-up {
+	  background: url(img/crossOut6.png) center center no-repeat;
+	  visibility: visible;
+	  transform: rotate(-43deg);
+	  width: 500px;
+	}
+	
