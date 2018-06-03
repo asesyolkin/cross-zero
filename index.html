@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Крестики-нолики</title>
+  <link href='style.css' rel='stylesheet'>
+  <script src='script.js' defer></script>
+</head>
+
+<body>
+  <div class='cross-out'></div>
+  
+  <div id="playing-field">
+    <div class='account'>
+      <div class='account-img-background'></div>
+      <div class='account-player1'>0</div>
+      <br>
+      <div class='account-player2-robot'>0</div>
+    </div>
+  
+    <table id="playing-field-table">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>	  
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>	  
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  
+    <div class='who-goes'></div>
+  
+    <div id='game-button'>
+      <button data-new-game="human-human">Новая игра "Человек-Человек"</button>
+      <button data-new-game="human-robot">Новая игра "Человек-Робот"</button>
+    </div>
+  </div>
+</body>
+</html>
